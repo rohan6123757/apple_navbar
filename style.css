@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.nav{
+    background-color: #000000CC;
+    opacity: .8;
+    color: #f5f5f5;
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+}
+.bhutu{
+    display: none;
+}
+.inp{
+    display: none;
+}
+
+.A{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.logo{
+    padding-right: 10px;
+    cursor: pointer;
+}
+.search{
+    padding-top: 2px;
+    cursor: pointer;
+}
+.shop{
+    padding-top: 3px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+#circle{
+    display: none;
+}
+#dis{
+    display: none;
+}
+@media (max-width:950px) {
+    .nav{
+        display: block;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+    }
+    .nav .logo{
+         display: none;
+    }
+    .search{
+        display: none;
+    }
+    .nav .shop{
+          display: none;
+    }
+    .A{
+        padding-bottom: 15px;
+        border-bottom: 0.001px solid #f5f5f5;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding: 9px;
+        margin: 15px;
+        cursor: pointer;
+    }
+    .bhutu{
+        display: block;
+        
+    }
+    .inp{
+        display: flex;
+        justify-content: center;
+         
+    }
+    #input{
+        background-color: rgb(80, 80, 80);
+        color: #f5f5f5;
+        border: none;
+        padding: 10px;
+        width: 80%;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .nav #circle{
+        display: none;
+    }
+    #nav1{
+         position: relative;
+         left: -150%;
+         width: 100%;
+         transition: 0.8s;
+         height: 100%;
+    }    
+    #dis{
+        display: flex;
+        justify-content:center;
+        background-color: #000000CC;
+        color: #f5f5f5;
+        padding: 10px;
+        font-size: 15px;
+        opacity: .8;
+    }
+    #circle1{
+        position: relative;
+        top: 2px;
+        left: -40%;
+        background-color: transparent;
+        border: none;
+        color: #f5f5f5;
+        cursor: pointer;
+    }
+     
+}
